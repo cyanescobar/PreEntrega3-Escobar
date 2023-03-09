@@ -8,6 +8,10 @@ body {
     font-family: "ComicNeue-Bold";
     background-color: rgb(101, 226, 230);
 }
+footer {
+    font-family: "ComicNeue-Bold";
+    margin: 10px;
+}
 /*Fonts*/
 @font-face {
     font-family: "ComicNeue-Bold.ttf";
@@ -52,9 +56,11 @@ h2{
     padding: 30px;
     margin: 50px;
 }
+/*Carousel Inicio*/
 .d-block{
       width: 30%;
 }
+/*Paragraph Background Image*/
 .section2{
     background-image: url("../assets/img/background-celeste.jpg");
     background-attachment: fixed;
@@ -92,6 +98,17 @@ h2{
     display: inline-block;
     margin: 15px;
     padding: 10px;
+}
+/*Help text*/
+.Help-questions-text{
+    background-image: url("../assets/img/background-celeste.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    padding: 30px;
+    margin: 50px;
 }
 /*Text in Security Page*/
 .textSecurity{
