@@ -52,6 +52,19 @@ h2{
     padding: 30px;
     margin: 50px;
 }
+.d-block{
+      width: 30%;
+}
+.section2{
+    background-image: url("../assets/img/background-celeste.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    padding: 30px;
+    margin: 50px;
+}
 /*Paragraph Background Image ABOUT US*/
 .fondoAboutUs{
     background-image: url("../assets/img/background-celeste.jpg");
