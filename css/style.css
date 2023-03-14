@@ -7,6 +7,19 @@
 body {
     font-family: "ComicNeue-Bold";
     background-color: rgb(101, 226, 230);
+    background-image: url("../assets/img/computer.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Body Cards Background*/
+.bodyCards {
+    background-image: url("../assets/img/computer.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 footer {
     font-family: "ComicNeue-Bold";
@@ -23,7 +36,7 @@ footer {
 }
 /*Title Fonts*/
 h1, h2, h3, h4, h5{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 h3{
     font-size: 1rem;
@@ -37,43 +50,55 @@ h2{
     text-align: center;
 }
 .logo1{
-    width: 250px;
-    border-radius: 10%;
+    width: 100px;
+    height: 175px;
+    border-radius: 35%;
     margin: 2.5%;
     transition: all 1s ease;
 }
 .logo1:hover{
     transform:scale(1.1, 1.1)
 }
+/*Inicio images*/
+.img-thumbnail{
+    width: 250px;
+    height: 300px;
+    margin: 50px;
+    padding: 5px;
+    transition: all 1s ease;
+}
+.img-thumbnail:hover{
+    transform: scale(1.1, 1.1);
+}
+/*Text font family*/
+.text-start {
+    font-family: Arial, Helvetica, sans-serif;
+}
 /*Paragraph Background Image*/
 .section1{
-    background-image: url("../assets/img/background-celeste.jpg");
+    background-image: url("../assets/img/brownbackground.jfif");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 200px;
+    height: 13rem;
     padding: 30px;
     margin: 50px;
 }
-/*Carousel Inicio*/
-.d-block{
-      width: 30%;
-}
 /*Paragraph Background Image*/
 .section2{
-    background-image: url("../assets/img/background-celeste.jpg");
+    background-image: url("../assets/img/brownbackground.jfif");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 200px;
+    height: 13rem;
     padding: 30px;
     margin: 50px;
 }
 /*Paragraph Background Image ABOUT US*/
 .fondoAboutUs{
-    background-image: url("../assets/img/background-celeste.jpg");
+    background-image: url("../assets/img/brownbackground.jfif");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -101,7 +126,7 @@ h2{
 }
 /*Help text*/
 .Help-questions-text{
-    background-image: url("../assets/img/background-celeste.jpg");
+    background-image: url("../assets/img/brownbackground.jfif");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -112,7 +137,7 @@ h2{
 }
 /*Text in Security Page*/
 .textSecurity{
-    background-image: url("../assets/img/background-celeste.jpg");
+    background-image: url("../assets/img/brownbackground.jfif");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
