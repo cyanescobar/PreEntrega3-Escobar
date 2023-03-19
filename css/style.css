@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*Body Settings*/
 body {
     font-family: "ComicNeue-Bold";
     background-color: rgb(101, 226, 230);
@@ -21,6 +22,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+/*Footer Settings*/
 footer {
     font-family: "ComicNeue-Bold";
     margin: 10px;
@@ -76,34 +78,16 @@ h2{
 }
 /*Paragraph Background Image*/
 .section1{
-    background-image: url("../assets/img/brownbackground.jfif");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 13rem;
     padding: 30px;
     margin: 50px;
 }
 /*Paragraph Background Image*/
 .section2{
-    background-image: url("../assets/img/brownbackground.jfif");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 13rem;
     padding: 30px;
     margin: 50px;
 }
 /*Paragraph Background Image ABOUT US*/
 .fondoAboutUs{
-    background-image: url("../assets/img/brownbackground.jfif");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 300px;
     padding: 30px;
     margin: 50px;
 }
@@ -126,23 +110,11 @@ h2{
 }
 /*Help text*/
 .Help-questions-text{
-    background-image: url("../assets/img/brownbackground.jfif");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 200px;
     padding: 30px;
     margin: 50px;
 }
 /*Text in Security Page*/
 .textSecurity{
-    background-image: url("../assets/img/brownbackground.jfif");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 150px;
     padding: 10px;
     margin: 30px;
 }
