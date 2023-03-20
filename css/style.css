@@ -54,7 +54,7 @@ h2{
 .logo1{
     width: 100px;
     height: 175px;
-    border-radius: 35%;
+    border-radius: 5%;
     margin: 2.5%;
     transition: all 1s ease;
 }
