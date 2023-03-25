@@ -1,0 +1,12 @@
+/*Variables*/
+$font-principal: "ComicNeue-Bold.ttf";
+$background-image: url("../assets/img/computer.jpg");
+
+body {
+    font-family: $font-principal;
+    background-image: $background-image;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
