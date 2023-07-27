@@ -53,8 +53,8 @@
                   </li>
                 </ul>
                 <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
+                  <input class="form-control me-2" type="text" id="searchInput" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit" id="searchButton" >Search</button>
                 </form>
               </div>
             </div>
@@ -70,22 +70,16 @@
           From your everyday spending, to planning for your future with savings and investments, we help you get more from your money. Financial services are the backbone of our society, and our goal is to make them work for as many individuals and businesses as possible. We want to grow the global economy by providing everyone with frictionless, accessible financial products. To do so, we’re building a borderless, customer-centric platform which feels personal to everyone and will serve as their trusted companion to manage and grow their money. We'll support our customers throughout their lives as individuals, groups, and families. And we can offer all the tools they need to easily manage, spend, borrow, invest, and protect their money. All in one personalised, simple space that looks and feels local at home and abroad.</p> 
         <section>
           <!--Contact form-->
-            <form class="anchoForm p-3 m-5 border border-light border-2 bg-light">
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-                <button type="submit" class="btn btn-dark">Submit</button>
-              </form>
+            <form action="" class="formulario">
+              <h1 class="formulario-titulo">Contáctenos</h1>
+              <input type="text" class="formulario-input">
+              <label for="" class="formulario-label">Nombre</label>
+              <input type="text" class="formulario-input">
+              <label for="" class="formulario-label">Correo</label>
+              <input type="email" class="formulario-input">
+              <label for="" class="formulario-label">Mensaje</label>
+              <input type="submit" class="formulario-submit">
+            </form>
         </section>
     </main>
     <footer>
@@ -98,5 +92,7 @@
     </footer>
     <!--JavaScript Bundle with Popper-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<script src="../js/form.js"></script>
+<script src="../js/botonsearch.js"></script>
 </body>
 </html>
